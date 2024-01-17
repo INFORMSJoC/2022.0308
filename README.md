@@ -38,6 +38,8 @@ Below is the BibTex for citing this snapshot of the respoitory.
 
 This directory provides code used for the computations associated with the quadratic optimization models in the context of undesirable facility location problems for the abovementioned article.
 
+src contains scripts for the optimization of the MIQP model and visualization of the results: model.py contains functions for building and optimizing the MIQP model, while greedy_heuristic.py applies a greedy heuristic to achieve a feasible solution. plotting.py and results.py contain functions tasked with visualizing results through various different plots as well as excel tables. They also contain superordinate functions that create the corresponding results first by running functions from model.py and/or greedy_heuristic.py before creating the corresponding visualization. These functions are called by functions in tables_and_figures.py to create the exact same figures and tables that are included in the paper from scratch. Lastly, utils.py contains helper and utility functions.
+
 ## Requirements to run code
 
 The code uses the following open-source Python packages. 
