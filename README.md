@@ -7,13 +7,13 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
-[This is a Template](https://doi.org/10.1287/ijoc.2019.0000) by T. Ralphs. 
+[Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions](https://doi.org/10.1287/ijoc.2019.0000) by Christian Schmitt and Bismark Singh. 
 The snapshot is based on 
 [this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
 in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
-https://github.com/tkralphs/JoCTemplate. Please go there if you would like to
+https://github.com/schmitt-hub/preferential_access_and_fairness_in_waste_management. Please go there if you would like to
 get a more recent version or would like support**
 
 ## Cite
@@ -28,10 +28,10 @@ Below is the BibTex for citing this snapshot of the respoitory.
 
 ```
 @article{CacheTest,
-  author =        {T. Ralphs},
+  author =        {C. Schmitt and B. Singh},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{CacheTest}},
-  year =          {2020},
+  title =         {{Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions}},
+  year =          {2023},
   doi =           {10.1287/ijoc.2019.0000.cd},
   url =           {https://github.com/INFORMSJoC/2019.0000},
 }  
@@ -39,68 +39,27 @@ Below is the BibTex for citing this snapshot of the respoitory.
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This directory provides code used for the computations associated with the quadratic optimization models in the context of undesirable facility location problems for the abovementioned article.
 
-## Building
+## Requirements to run code
 
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
+The code uses the following open-source Python packages. 
 
-```
-make mult
-```
-
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
-
-```
-make clean
-make sum
-```
-
-Be sure to make clean before building a different version of the code.
+Pyomo, a Python-based optimization modeling language that allows building optimization models.
+Gurobi, a software well-equiped for solving complex optimization models such as MIQPs.
+Geopy, which was used for calculating geodesic distances (i.e. shortest distances on the surface of the earth) between two locations.
 
 ## Results
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+Results are provided here.
 
-![Figure 1](results/mult-test.png)
 
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
-
-## Replicating
-
-To replicate the results in [Figure 1](results/mult-test), do either
-
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
 
 ## Ongoing Development
 
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
+This code is being developed on an on-going basis at the authors'
+[Github site]([https://github.com/tkralphs/JoCTemplate](https://github.com/schmitt-hub/preferential_access_and_fairness_in_waste_management)).
 
 ## Support
 
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+For support in using this software, contact the authors.
