@@ -8,9 +8,6 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions](https://doi.org/10.1287/ijoc.2019.0000) by Christian Schmitt and Bismark Singh. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/schmitt-hub/preferential_access_and_fairness_in_waste_management. Please go there if you would like to
