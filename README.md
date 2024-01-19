@@ -1,13 +1,13 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# CacheTest
+# [Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions](https://doi.org/10.1287/ijoc.2022.0308)
 
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
-[Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions](https://doi.org/10.1287/ijoc.2019.0000) by Christian Schmitt and Bismark Singh. 
+[Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions](https://doi.org/10.1287/ijoc.2022.0308) by Christian Schmitt and Bismark Singh. 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/schmitt-hub/preferential_access_and_fairness_in_waste_management. Please go there if you would like to
@@ -17,9 +17,9 @@ get a more recent version or would like support**
 
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
 
-https://doi.org/10.1287/ijoc.2019.0000
+https://doi.org/10.1287/ijoc.2022.0308
 
-https://doi.org/10.1287/ijoc.2019.0000.cd
+https://doi.org/10.1287/ijoc.2022.0308.cd
 
 Below is the BibTex for citing this snapshot of the respoitory.
 
@@ -29,7 +29,7 @@ Below is the BibTex for citing this snapshot of the respoitory.
   publisher =     {INFORMS Journal on Computing},
   title =         {{Quadratic Optimization Models for Balancing Preferential Access and Fairness: Formulations and Optimality Conditions}},
   year =          {2023},
-  doi =           {10.1287/ijoc.2019.0000.cd},
+  doi =           {10.1287/ijoc.2022.0308},
   url =           {https://github.com/INFORMSJoC/2019.0000},
 }  
 ```
